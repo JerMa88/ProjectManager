@@ -19,7 +19,7 @@ public:
     Project();
 
     //Constructor
-    Project(string ProjectName, int assignDate, int dueDate, ine cushionDays);
+    Project(string ProjectName, int assignDate, int dueDate, int cushionDays);
 
     //***Rule of 3
     //Copy constructor
@@ -42,4 +42,6 @@ public:
     void setCushionDays(int newCushionDays);
     int getTimeSpan() const;
     // As of now no mutating timeSpan features.
-}
+};
+
+#endif

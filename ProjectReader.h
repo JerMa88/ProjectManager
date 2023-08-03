@@ -12,4 +12,6 @@ private:
 public:
     void read();
     void assign();
-}
+};
+
+#endif

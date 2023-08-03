@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/zma/VSCPrograms/fun/ProjectManager/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/PojectManager.dir/main.cpp.o -c /Users/zma/VSCPrograms/fun/ProjectManager/main.cpp",
+  "file": "/Users/zma/VSCPrograms/fun/ProjectManager/main.cpp",
+  "output": "CMakeFiles/PojectManager.dir/main.cpp.o"
+}
+]
