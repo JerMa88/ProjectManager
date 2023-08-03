@@ -4,7 +4,7 @@ project(PojectManager VERSION 0.1.0 LANGUAGES C CXX)
 include(CTest)
 enable_testing()
 
-add_executable(PojectManager main.cpp)
+add_executable(PojectManager main.cpp Project.cpp ProjectReader.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

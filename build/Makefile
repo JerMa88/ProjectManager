@@ -523,6 +523,54 @@ PojectManager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/build
 .PHONY : PojectManager/fast
 
+Project.o: Project.cpp.o
+.PHONY : Project.o
+
+# target to build an object file
+Project.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/Project.cpp.o
+.PHONY : Project.cpp.o
+
+Project.i: Project.cpp.i
+.PHONY : Project.i
+
+# target to preprocess a source file
+Project.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/Project.cpp.i
+.PHONY : Project.cpp.i
+
+Project.s: Project.cpp.s
+.PHONY : Project.s
+
+# target to generate assembly for a file
+Project.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/Project.cpp.s
+.PHONY : Project.cpp.s
+
+ProjectReader.o: ProjectReader.cpp.o
+.PHONY : ProjectReader.o
+
+# target to build an object file
+ProjectReader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/ProjectReader.cpp.o
+.PHONY : ProjectReader.cpp.o
+
+ProjectReader.i: ProjectReader.cpp.i
+.PHONY : ProjectReader.i
+
+# target to preprocess a source file
+ProjectReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/ProjectReader.cpp.i
+.PHONY : ProjectReader.cpp.i
+
+ProjectReader.s: ProjectReader.cpp.s
+.PHONY : ProjectReader.s
+
+# target to generate assembly for a file
+ProjectReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/ProjectReader.cpp.s
+.PHONY : ProjectReader.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -587,6 +635,12 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... PojectManager"
+	@echo "... Project.o"
+	@echo "... Project.i"
+	@echo "... Project.s"
+	@echo "... ProjectReader.o"
+	@echo "... ProjectReader.i"
+	@echo "... ProjectReader.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

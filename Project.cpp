@@ -2,20 +2,35 @@
 
 //***Constructors
     //Defalt Constructor
-    Project::Project();
+    Project::Project()
+    {
+
+    }
 
     //Constructor
-    Project::Project(string ProjectName, int assignDate, int dueDate, int cushionDays);
+    Project::Project(string ProjectName, int assignDate, int dueDate, int cushionDays)
+    {
+
+    }
 
 //***Rule of 3
     //Copy constructor
-    Project::Project(const Project& other);
+    Project::Project(const Project& other)
+    {
+
+    }
 
     //Copy Assignment Operator
-    Project::Project& operator=(const Project& rhs);
+    Project::Project& operator=(const Project& rhs)
+    {
+
+    }
 
     //Destructor
-    Project::~Project();
+    Project::~Project()
+    {
+        
+    }
 
 //***accessors and mutators
     string Project::getProjectName() const

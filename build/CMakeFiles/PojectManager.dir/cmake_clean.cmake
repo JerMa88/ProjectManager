@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/PojectManager.dir/Project.cpp.o"
+  "CMakeFiles/PojectManager.dir/Project.cpp.o.d"
+  "CMakeFiles/PojectManager.dir/ProjectReader.cpp.o"
+  "CMakeFiles/PojectManager.dir/ProjectReader.cpp.o.d"
   "CMakeFiles/PojectManager.dir/main.cpp.o"
   "CMakeFiles/PojectManager.dir/main.cpp.o.d"
   "PojectManager"

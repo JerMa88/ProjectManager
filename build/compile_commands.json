@@ -4,5 +4,17 @@
   "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/PojectManager.dir/main.cpp.o -c /Users/zma/VSCPrograms/fun/ProjectManager/main.cpp",
   "file": "/Users/zma/VSCPrograms/fun/ProjectManager/main.cpp",
   "output": "CMakeFiles/PojectManager.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/zma/VSCPrograms/fun/ProjectManager/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/PojectManager.dir/Project.cpp.o -c /Users/zma/VSCPrograms/fun/ProjectManager/Project.cpp",
+  "file": "/Users/zma/VSCPrograms/fun/ProjectManager/Project.cpp",
+  "output": "CMakeFiles/PojectManager.dir/Project.cpp.o"
+},
+{
+  "directory": "/Users/zma/VSCPrograms/fun/ProjectManager/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/PojectManager.dir/ProjectReader.cpp.o -c /Users/zma/VSCPrograms/fun/ProjectManager/ProjectReader.cpp",
+  "file": "/Users/zma/VSCPrograms/fun/ProjectManager/ProjectReader.cpp",
+  "output": "CMakeFiles/PojectManager.dir/ProjectReader.cpp.o"
 }
 ]
