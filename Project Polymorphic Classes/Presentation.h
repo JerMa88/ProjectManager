@@ -1,11 +1,11 @@
-#ifndef TEST_H
-#define TEST_H
+#ifndef PRESENTATION_H
+#define PRESENTATION_H
 
 #include <string>
 #include <cmath>
 using namespace std;
 
-class Test : public Project
+class Presentation : public Project
 {
 private:
 

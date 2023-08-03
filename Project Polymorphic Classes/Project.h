@@ -13,6 +13,8 @@ private:
     int dueDate;
     int cushionDays;
     int timeSpan = dueDate - assignDate - cushionDays;
+    string note;
+    
 public:
     //***Constructors
     //Defalt Constructor
@@ -42,6 +44,8 @@ public:
     void setCushionDays(int newCushionDays);
     int getTimeSpan() const;
     // As of now no mutating timeSpan features.
+    string getNote() const;
+    void setNote(string newNote);
 };
 
 #endif

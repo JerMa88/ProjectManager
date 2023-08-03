@@ -79,3 +79,13 @@
     }
 
     // As of now no mutating timeSpan feature.
+
+    string getNote() const
+    {
+        return note;
+    }
+    
+    void setNote(string newNote)
+    {
+        note = newNote;
+    }
