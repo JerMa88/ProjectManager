@@ -523,30 +523,6 @@ PojectManager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/build
 .PHONY : PojectManager/fast
 
-Project.o: Project.cpp.o
-.PHONY : Project.o
-
-# target to build an object file
-Project.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/Project.cpp.o
-.PHONY : Project.cpp.o
-
-Project.i: Project.cpp.i
-.PHONY : Project.i
-
-# target to preprocess a source file
-Project.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/Project.cpp.i
-.PHONY : Project.cpp.i
-
-Project.s: Project.cpp.s
-.PHONY : Project.s
-
-# target to generate assembly for a file
-Project.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/Project.cpp.s
-.PHONY : Project.cpp.s
-
 ProjectReader.o: ProjectReader.cpp.o
 .PHONY : ProjectReader.o
 
@@ -570,6 +546,30 @@ ProjectReader.s: ProjectReader.cpp.s
 ProjectReader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/ProjectReader.cpp.s
 .PHONY : ProjectReader.cpp.s
+
+Project_Polymorphic_Classes/Project.o: Project_Polymorphic_Classes/Project.cpp.o
+.PHONY : Project_Polymorphic_Classes/Project.o
+
+# target to build an object file
+Project_Polymorphic_Classes/Project.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o
+.PHONY : Project_Polymorphic_Classes/Project.cpp.o
+
+Project_Polymorphic_Classes/Project.i: Project_Polymorphic_Classes/Project.cpp.i
+.PHONY : Project_Polymorphic_Classes/Project.i
+
+# target to preprocess a source file
+Project_Polymorphic_Classes/Project.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.i
+.PHONY : Project_Polymorphic_Classes/Project.cpp.i
+
+Project_Polymorphic_Classes/Project.s: Project_Polymorphic_Classes/Project.cpp.s
+.PHONY : Project_Polymorphic_Classes/Project.s
+
+# target to generate assembly for a file
+Project_Polymorphic_Classes/Project.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.s
+.PHONY : Project_Polymorphic_Classes/Project.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -635,12 +635,12 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... PojectManager"
-	@echo "... Project.o"
-	@echo "... Project.i"
-	@echo "... Project.s"
 	@echo "... ProjectReader.o"
 	@echo "... ProjectReader.i"
 	@echo "... ProjectReader.s"
+	@echo "... Project_Polymorphic_Classes/Project.o"
+	@echo "... Project_Polymorphic_Classes/Project.i"
+	@echo "... Project_Polymorphic_Classes/Project.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

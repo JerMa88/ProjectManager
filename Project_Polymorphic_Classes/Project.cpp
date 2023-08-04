@@ -21,7 +21,7 @@
     }
 
     //Copy Assignment Operator
-    Project::Project& operator=(const Project& rhs)
+    Project& Project::operator=(const Project& rhs)
     {
 
     }
@@ -80,12 +80,12 @@
 
     // As of now no mutating timeSpan feature.
 
-    string getNote() const
+    string Project::getNote() const
     {
         return note;
     }
     
-    void setNote(string newNote)
+    void Project::setNote(string newNote)
     {
         note = newNote;
     }

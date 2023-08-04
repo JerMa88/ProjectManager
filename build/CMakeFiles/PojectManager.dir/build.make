@@ -83,19 +83,19 @@ CMakeFiles/PojectManager.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PojectManager.dir/main.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zma/VSCPrograms/fun/ProjectManager/main.cpp -o CMakeFiles/PojectManager.dir/main.cpp.s
 
-CMakeFiles/PojectManager.dir/Project.cpp.o: CMakeFiles/PojectManager.dir/flags.make
-CMakeFiles/PojectManager.dir/Project.cpp.o: /Users/zma/VSCPrograms/fun/ProjectManager/Project.cpp
-CMakeFiles/PojectManager.dir/Project.cpp.o: CMakeFiles/PojectManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zma/VSCPrograms/fun/ProjectManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PojectManager.dir/Project.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PojectManager.dir/Project.cpp.o -MF CMakeFiles/PojectManager.dir/Project.cpp.o.d -o CMakeFiles/PojectManager.dir/Project.cpp.o -c /Users/zma/VSCPrograms/fun/ProjectManager/Project.cpp
+CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o: CMakeFiles/PojectManager.dir/flags.make
+CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o: /Users/zma/VSCPrograms/fun/ProjectManager/Project_Polymorphic_Classes/Project.cpp
+CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o: CMakeFiles/PojectManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zma/VSCPrograms/fun/ProjectManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o -MF CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o.d -o CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o -c /Users/zma/VSCPrograms/fun/ProjectManager/Project_Polymorphic_Classes/Project.cpp
 
-CMakeFiles/PojectManager.dir/Project.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PojectManager.dir/Project.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zma/VSCPrograms/fun/ProjectManager/Project.cpp > CMakeFiles/PojectManager.dir/Project.cpp.i
+CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zma/VSCPrograms/fun/ProjectManager/Project_Polymorphic_Classes/Project.cpp > CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.i
 
-CMakeFiles/PojectManager.dir/Project.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PojectManager.dir/Project.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zma/VSCPrograms/fun/ProjectManager/Project.cpp -o CMakeFiles/PojectManager.dir/Project.cpp.s
+CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zma/VSCPrograms/fun/ProjectManager/Project_Polymorphic_Classes/Project.cpp -o CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.s
 
 CMakeFiles/PojectManager.dir/ProjectReader.cpp.o: CMakeFiles/PojectManager.dir/flags.make
 CMakeFiles/PojectManager.dir/ProjectReader.cpp.o: /Users/zma/VSCPrograms/fun/ProjectManager/ProjectReader.cpp
@@ -114,14 +114,14 @@ CMakeFiles/PojectManager.dir/ProjectReader.cpp.s: cmake_force
 # Object files for target PojectManager
 PojectManager_OBJECTS = \
 "CMakeFiles/PojectManager.dir/main.cpp.o" \
-"CMakeFiles/PojectManager.dir/Project.cpp.o" \
+"CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o" \
 "CMakeFiles/PojectManager.dir/ProjectReader.cpp.o"
 
 # External object files for target PojectManager
 PojectManager_EXTERNAL_OBJECTS =
 
 PojectManager: CMakeFiles/PojectManager.dir/main.cpp.o
-PojectManager: CMakeFiles/PojectManager.dir/Project.cpp.o
+PojectManager: CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o
 PojectManager: CMakeFiles/PojectManager.dir/ProjectReader.cpp.o
 PojectManager: CMakeFiles/PojectManager.dir/build.make
 PojectManager: CMakeFiles/PojectManager.dir/link.txt
