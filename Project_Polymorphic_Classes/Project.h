@@ -12,7 +12,7 @@ private:
     int assignDate;
     int dueDate;
     int cushionDays;
-    int timeSpan;// = dueDate - assignDate - cushionDays;
+    int timeSpan;
     string note;
     
 public:
