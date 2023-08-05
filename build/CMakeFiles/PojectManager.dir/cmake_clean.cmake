@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/PojectManager.dir/Course.cpp.o"
+  "CMakeFiles/PojectManager.dir/Course.cpp.o.d"
   "CMakeFiles/PojectManager.dir/ProjectReader.cpp.o"
   "CMakeFiles/PojectManager.dir/ProjectReader.cpp.o.d"
   "CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o"

@@ -83,10 +83,24 @@ CMakeFiles/PojectManager.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PojectManager.dir/main.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zma/VSCPrograms/fun/ProjectManager/main.cpp -o CMakeFiles/PojectManager.dir/main.cpp.s
 
+CMakeFiles/PojectManager.dir/Course.cpp.o: CMakeFiles/PojectManager.dir/flags.make
+CMakeFiles/PojectManager.dir/Course.cpp.o: /Users/zma/VSCPrograms/fun/ProjectManager/Course.cpp
+CMakeFiles/PojectManager.dir/Course.cpp.o: CMakeFiles/PojectManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zma/VSCPrograms/fun/ProjectManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PojectManager.dir/Course.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PojectManager.dir/Course.cpp.o -MF CMakeFiles/PojectManager.dir/Course.cpp.o.d -o CMakeFiles/PojectManager.dir/Course.cpp.o -c /Users/zma/VSCPrograms/fun/ProjectManager/Course.cpp
+
+CMakeFiles/PojectManager.dir/Course.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PojectManager.dir/Course.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zma/VSCPrograms/fun/ProjectManager/Course.cpp > CMakeFiles/PojectManager.dir/Course.cpp.i
+
+CMakeFiles/PojectManager.dir/Course.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PojectManager.dir/Course.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zma/VSCPrograms/fun/ProjectManager/Course.cpp -o CMakeFiles/PojectManager.dir/Course.cpp.s
+
 CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o: CMakeFiles/PojectManager.dir/flags.make
 CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o: /Users/zma/VSCPrograms/fun/ProjectManager/Project_Polymorphic_Classes/Project.cpp
 CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o: CMakeFiles/PojectManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zma/VSCPrograms/fun/ProjectManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zma/VSCPrograms/fun/ProjectManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o -MF CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o.d -o CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o -c /Users/zma/VSCPrograms/fun/ProjectManager/Project_Polymorphic_Classes/Project.cpp
 
 CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.s: cmake_fo
 CMakeFiles/PojectManager.dir/ProjectReader.cpp.o: CMakeFiles/PojectManager.dir/flags.make
 CMakeFiles/PojectManager.dir/ProjectReader.cpp.o: /Users/zma/VSCPrograms/fun/ProjectManager/ProjectReader.cpp
 CMakeFiles/PojectManager.dir/ProjectReader.cpp.o: CMakeFiles/PojectManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zma/VSCPrograms/fun/ProjectManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PojectManager.dir/ProjectReader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zma/VSCPrograms/fun/ProjectManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PojectManager.dir/ProjectReader.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PojectManager.dir/ProjectReader.cpp.o -MF CMakeFiles/PojectManager.dir/ProjectReader.cpp.o.d -o CMakeFiles/PojectManager.dir/ProjectReader.cpp.o -c /Users/zma/VSCPrograms/fun/ProjectManager/ProjectReader.cpp
 
 CMakeFiles/PojectManager.dir/ProjectReader.cpp.i: cmake_force
@@ -114,6 +128,7 @@ CMakeFiles/PojectManager.dir/ProjectReader.cpp.s: cmake_force
 # Object files for target PojectManager
 PojectManager_OBJECTS = \
 "CMakeFiles/PojectManager.dir/main.cpp.o" \
+"CMakeFiles/PojectManager.dir/Course.cpp.o" \
 "CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o" \
 "CMakeFiles/PojectManager.dir/ProjectReader.cpp.o"
 
@@ -121,11 +136,12 @@ PojectManager_OBJECTS = \
 PojectManager_EXTERNAL_OBJECTS =
 
 PojectManager: CMakeFiles/PojectManager.dir/main.cpp.o
+PojectManager: CMakeFiles/PojectManager.dir/Course.cpp.o
 PojectManager: CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o
 PojectManager: CMakeFiles/PojectManager.dir/ProjectReader.cpp.o
 PojectManager: CMakeFiles/PojectManager.dir/build.make
 PojectManager: CMakeFiles/PojectManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zma/VSCPrograms/fun/ProjectManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable PojectManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zma/VSCPrograms/fun/ProjectManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable PojectManager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PojectManager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -8,9 +8,9 @@ using namespace std;
 class Test : public Project
 {
 private:
-
+    vector<string> type = {"final", "mid-term", "unit", "quiz"};
 public:
-    
+    string getType(int i);//{return type[i];}    
 };
 
 #endif

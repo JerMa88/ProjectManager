@@ -1,14 +1,16 @@
 #ifndef PROJECT_H
 #define PROJECT_H
 
+#include "../Course.h"
 #include <string>
 #include <cmath>
 using namespace std;
 
 class Project
 {
-private:
+protected:
     string projectName;
+    Course courseName;
     int assignDate;
     int dueDate;
     int cushionDays;
@@ -16,14 +18,14 @@ private:
     string note;
     
 public:
-    //***Constructors
+//***Constructors
     //Defalt Constructor
     Project();
 
     //Constructor
-    Project(string ProjectName, int assignDate, int dueDate, int cushionDays);
+    Project(string projectName, Course courseName, int assignDate, int dueDate, int cushionDays);
 
-    //***Rule of 3
+//***Rule of 3
     //Copy constructor
     Project(const Project& other);
 
@@ -33,9 +35,11 @@ public:
     //Destructor
     ~Project();
 
-    //***accessors and mutators
+//***accessors and mutators
     string getProjectName() const;
     void setProjectname(string newProjectName);
+    Course getCourseName() const;
+    void setCourseName(Course newCourseName);
     int getAssignDate() const;
     void setAssignDate(int newAssignDate);
     int getDueDate() const;

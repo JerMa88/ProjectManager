@@ -11,7 +11,7 @@ class ProjectReader
 private:
     vector<Project> readResult;
 public:
-    void read();
+    int read();
     void assign();
 };
 

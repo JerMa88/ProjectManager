@@ -1,6 +1,7 @@
 CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o: \
   /Users/zma/VSCPrograms/fun/ProjectManager/Project_Polymorphic_Classes/Project.cpp \
   /Users/zma/VSCPrograms/fun/ProjectManager/Project_Polymorphic_Classes/Project.h \
+  /Users/zma/VSCPrograms/fun/ProjectManager/Project_Polymorphic_Classes/../Course.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/comp.h \

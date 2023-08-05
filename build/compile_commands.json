@@ -7,6 +7,12 @@
 },
 {
   "directory": "/Users/zma/VSCPrograms/fun/ProjectManager/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/PojectManager.dir/Course.cpp.o -c /Users/zma/VSCPrograms/fun/ProjectManager/Course.cpp",
+  "file": "/Users/zma/VSCPrograms/fun/ProjectManager/Course.cpp",
+  "output": "CMakeFiles/PojectManager.dir/Course.cpp.o"
+},
+{
+  "directory": "/Users/zma/VSCPrograms/fun/ProjectManager/build",
   "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o -c /Users/zma/VSCPrograms/fun/ProjectManager/Project_Polymorphic_Classes/Project.cpp",
   "file": "/Users/zma/VSCPrograms/fun/ProjectManager/Project_Polymorphic_Classes/Project.cpp",
   "output": "CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o"

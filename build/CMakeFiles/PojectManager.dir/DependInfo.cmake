@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/zma/VSCPrograms/fun/ProjectManager/Course.cpp" "CMakeFiles/PojectManager.dir/Course.cpp.o" "gcc" "CMakeFiles/PojectManager.dir/Course.cpp.o.d"
   "/Users/zma/VSCPrograms/fun/ProjectManager/ProjectReader.cpp" "CMakeFiles/PojectManager.dir/ProjectReader.cpp.o" "gcc" "CMakeFiles/PojectManager.dir/ProjectReader.cpp.o.d"
   "/Users/zma/VSCPrograms/fun/ProjectManager/Project_Polymorphic_Classes/Project.cpp" "CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o" "gcc" "CMakeFiles/PojectManager.dir/Project_Polymorphic_Classes/Project.cpp.o.d"
   "/Users/zma/VSCPrograms/fun/ProjectManager/main.cpp" "CMakeFiles/PojectManager.dir/main.cpp.o" "gcc" "CMakeFiles/PojectManager.dir/main.cpp.o.d"

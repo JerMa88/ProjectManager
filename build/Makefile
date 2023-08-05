@@ -523,6 +523,30 @@ PojectManager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/build
 .PHONY : PojectManager/fast
 
+Course.o: Course.cpp.o
+.PHONY : Course.o
+
+# target to build an object file
+Course.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/Course.cpp.o
+.PHONY : Course.cpp.o
+
+Course.i: Course.cpp.i
+.PHONY : Course.i
+
+# target to preprocess a source file
+Course.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/Course.cpp.i
+.PHONY : Course.cpp.i
+
+Course.s: Course.cpp.s
+.PHONY : Course.s
+
+# target to generate assembly for a file
+Course.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PojectManager.dir/build.make CMakeFiles/PojectManager.dir/Course.cpp.s
+.PHONY : Course.cpp.s
+
 ProjectReader.o: ProjectReader.cpp.o
 .PHONY : ProjectReader.o
 
@@ -635,6 +659,9 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... PojectManager"
+	@echo "... Course.o"
+	@echo "... Course.i"
+	@echo "... Course.s"
 	@echo "... ProjectReader.o"
 	@echo "... ProjectReader.i"
 	@echo "... ProjectReader.s"

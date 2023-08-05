@@ -5,20 +5,23 @@
     Project::Project()
     {
         projectName = "";
+        courseName = Course();
         assignDate = 0;
         dueDate = 0;
         cushionDays = 0;
         timeSpan = 0;
+        note = "";
     }
 
     //Constructor
-    Project::Project(string ProjectName, int assignDate, int dueDate, int cushionDays)
+    Project::Project(string projectName, Course courseName, int assignDate, int dueDate, int cushionDays)
     {
-        this->projectName = ProjectName;
+        this->projectName = projectName;
+        this->courseName= courseName;
         this->assignDate = assignDate;
         this->dueDate = dueDate;
         this->cushionDays = cushionDays;
-        this->timeSpan = dueDate - assignDate - cushionDays;;
+        this->timeSpan = dueDate - assignDate - cushionDays;
     }
 
 //***Rule of 3
@@ -26,6 +29,7 @@
     Project::Project(const Project& other)
     {
         projectName = other.projectName;
+        courseName = other.courseName;
         assignDate = other.assignDate;
         dueDate = other.dueDate;
         cushionDays = other.cushionDays;
@@ -38,6 +42,7 @@
         if(this != &rhs)
         {
             projectName = rhs.projectName;
+            courseName = rhs.courseName;
             assignDate = rhs.assignDate;
             dueDate = rhs.dueDate;
             cushionDays = rhs.cushionDays;
@@ -61,6 +66,16 @@
     void Project::setProjectname(string newProjectName)
     {
         projectName = newProjectName;
+    }
+
+    Course Project::getCourseName() const
+    {
+        return courseName;
+    }
+
+    void Project::setCourseName(Course newCourseName)
+    {
+        courseName = newCourseName;
     }
 
     int Project::getAssignDate() const

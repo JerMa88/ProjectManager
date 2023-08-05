@@ -1,8 +1,6 @@
-CMakeFiles/PojectManager.dir/ProjectReader.cpp.o: \
-  /Users/zma/VSCPrograms/fun/ProjectManager/ProjectReader.cpp \
-  /Users/zma/VSCPrograms/fun/ProjectManager/ProjectReader.h \
-  /Users/zma/VSCPrograms/fun/ProjectManager/Project_Polymorphic_Classes/Project.h \
-  /Users/zma/VSCPrograms/fun/ProjectManager/Project_Polymorphic_Classes/../Course.h \
+CMakeFiles/PojectManager.dir/Course.cpp.o: \
+  /Users/zma/VSCPrograms/fun/ProjectManager/Course.cpp \
+  /Users/zma/VSCPrograms/fun/ProjectManager/Course.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/comp.h \
