@@ -1,35 +1,30 @@
 #include "ProjectReader.h"
+#include "Project_Polymorphic_Classes/Project.h"
 
 int ProjectReader::read()
 {
-    FILE *ics;
-    char line[100];
+    //https://stackoverflow.com/questions/35003036/toolset-to-parse-icalendar-file-in-c
+    //if I can download a ical file form canvas instead of a calendar feed
 
-    ics = fopen("example.ics", "r");
-    if (ics == NULL)
-        return -1;
-    while (fgets(line, sizeof(line), ics) != NULL)
+    string projectName, input = "";
+    int assignDate, dueDate, cushionDays;
+    Course courseName;
+    while (cin != "stop")
     {
-        char *separator;
-        char *key;
-        char *tail;
-        char *value;
-
-        if ((tail = strchr(line, '\n')) != NULL)
-            *tail = '\0'; // Remove the trailing '\n'
-        separator = strpbrk(line, ":;");
-        if (separator == NULL)
-            continue;
-        *separator = '\0';
-
-        key = line; // Maybe you want to strip surrounding white spaces
-        value = separator + 1; // Maybe you want to strip surrounding white spaces
-
-        fprintf(stdout, "%s --> %s\n", key, value);
+        cout << "\nWhat is the name for your new project?\n";
+        cin >> projectName;
+        cout << "\nWhat is the course for your new project?\n";
+        cin >> input;
+        courseName.setCourseName(input);
+        cout << "\nWhat is the assign date for your new project?\n";
+        cin >> assignDate;
+        cout << "\nWhat is the due date for your new project?\n";
+        cin >> dueDate;
+        cout << "\nWhat is the cushion days for your new project?\n";
+        cin >> cushionDays;
+        Project newProject = Project(projectName, courseName, assignDate, dueDate, cushionDays);
     }
-    fclose(ics);
-
-    return 0;
+    
 
 }
 

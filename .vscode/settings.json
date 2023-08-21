@@ -59,6 +59,7 @@
   "files.associations": {
     "string": "cpp",
     "iosfwd": "cpp",
-    "__locale": "cpp"
+    "__locale": "cpp",
+    "iostream": "cpp"
   }
 }

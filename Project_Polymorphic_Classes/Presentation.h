@@ -11,7 +11,7 @@ private:
     vector<string> topics;
 public:
     vector<string> getTopics() const;
-    void setTopics(vector<string> newTopics);
+    void setTopics(vector<string> newTopics); 
 };
 
 #endif
