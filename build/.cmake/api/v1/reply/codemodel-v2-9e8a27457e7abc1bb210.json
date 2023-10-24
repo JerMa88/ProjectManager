@@ -291,7 +291,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "PojectManager::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PojectManager-Debug-7d6858928d5c47e28478.json",
+					"jsonFile" : "target-PojectManager-Debug-5d3e409f07fd0d815d3b.json",
 					"name" : "PojectManager",
 					"projectIndex" : 0
 				}
@@ -301,8 +301,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/zma/VSCPrograms/fun/ProjectManager/build",
-		"source" : "/Users/zma/VSCPrograms/fun/ProjectManager"
+		"build" : "/Users/zma/Documents/GitHub/ProjectManager/build",
+		"source" : "/Users/zma/Documents/GitHub/ProjectManager"
 	},
 	"version" : 
 	{

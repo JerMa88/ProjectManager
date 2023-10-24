@@ -4,17 +4,17 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/zma/VSCPrograms/fun/ProjectManager
-BuildDirectory: /Users/zma/VSCPrograms/fun/ProjectManager/build
+SourceDirectory: /Users/zma/Documents/GitHub/ProjectManager
+BuildDirectory: /Users/zma/Documents/GitHub/ProjectManager/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: MacBook-Pro-2.local
+Site: MacBook-Pro-4.local
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Darwin-clang++
+BuildName: Darwin-aarch64-apple-darwin22-g++-13
 
 # Subprojects
 LabelsForSubprojects: 
@@ -27,8 +27,8 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/Applications/CMake.app/Contents/bin/cmake" "/Users/zma/VSCPrograms/fun/ProjectManager"
-MakeCommand: /Applications/CMake.app/Contents/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+ConfigureCommand: "/Applications/CMake.app/Contents/bin/cmake" "/Users/zma/Documents/GitHub/ProjectManager"
+MakeCommand: /Applications/CMake.app/Contents/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -63,8 +63,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /usr/bin/clang++
-CompilerVersion: 14.0.3.14030022
+Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-g++-13
+CompilerVersion: 13.1.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

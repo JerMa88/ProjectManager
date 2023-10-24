@@ -64,17 +64,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/Clang.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/GNU-C.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -89,17 +79,12 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake"
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Apple-GNU-C.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake"
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Apple-GNU.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -119,27 +104,22 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake"
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/Clang.cmake"
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/GNU.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake"
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Apple-GNU-CXX.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake"
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Apple-GNU.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -188,8 +168,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/zma/VSCPrograms/fun/ProjectManager/build",
-		"source" : "/Users/zma/VSCPrograms/fun/ProjectManager"
+		"build" : "/Users/zma/Documents/GitHub/ProjectManager/build",
+		"source" : "/Users/zma/Documents/GitHub/ProjectManager"
 	},
 	"version" : 
 	{
