@@ -11,6 +11,7 @@ Need groceries? Here's a chance to put it on a list! The app will remind you wha
 
 
 ## Possible Names:
-* burnout (to prevent burn-outs in college students)
-* doer (get THINGS done)
-* startup (no not impressionable)
+* Burnout (to prevent burn-outs in college students)
+* Vivir (have more time to live)
+* Doer (get THINGS done)
+* Startup (no not impressionable)
