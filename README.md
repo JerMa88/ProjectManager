@@ -13,5 +13,7 @@ Need groceries? Here's a chance to put it on a list! The app will remind you wha
 ## Possible Names:
 * Burnout (to prevent burn-outs in college students)
 * Vivir (have more time to live)
+* Delegate (plan out your authority)
+* 取舍 (Take rocks not pebbles)
 * Doer (get THINGS done)
 * Startup (no not impressionable)
